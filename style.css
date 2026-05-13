@@ -87,8 +87,16 @@ a.duke:hover {
 }
 /* Mobile */
 @media (max-width: 600px) {
-  .content { flex-direction: column; }
-  .photo img { width: 160px; }
+  .content { 
+    flex-direction: column;
+    align-items: center;
+  }
+  .photo {
+    text-align: center;
+  }
+  .photo img { 
+    width: 160px; 
+  }
 }
 /* Research page */
 .research-section {
