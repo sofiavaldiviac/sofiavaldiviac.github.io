@@ -87,7 +87,7 @@ a.duke:hover {
 }
 /* Mobile */
 @media (max-width: 600px) {
-  .content { flex-direction: column-reverse; }
+  .content { flex-direction: column; }
   .photo img { width: 160px; }
 }
 /* Research page */
